@@ -26,6 +26,6 @@ app.use("*",function(req,res){
   res.sendFile(path + "404.html");
 });
 
-app.listen(process.env.PORT || 5000){
+app.listen(process.env.PORT){
   console.log("Live at Port 3000");
 });
